@@ -21,6 +21,30 @@ export const metadata: Metadata = {
   title: "株式会社AAB",
   description:
     "AABはベトナムを中心にフィリピン、インドネシアなどアジアでの セレモニー ... JP / EN / FR · AAB · Shuffle. わくわくを、世界へ。 ふたつの専門性でグローバルな ...",
+  openGraph: {
+    title: "株式会社AAB",
+    description:
+      "AABはベトナムを中心にフィリピン、インドネシアなどアジアでの セレモニー ... JP / EN / FR · AAB · Shuffle. わくわくを、世界へ。 ふたつの専門性でグローバルな ...",
+    url: "https://aab.co.jp",
+    siteName: "株式会社AAB",
+    images: [
+      {
+        url: "/logo.png",
+        width: 800,
+        height: 600,
+        alt: "AAB Logo",
+      },
+    ],
+    locale: "ja_JP",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "株式会社AAB",
+    description:
+      "AABはベトナムを中心にフィリピン、インドネシアなどアジアでの セレモニー ... JP / EN / FR · AAB · Shuffle. わくわくを、世界へ。 ふたつの専門性でグローバルな ...",
+    images: ["/logo.png"],
+  },
 };
 
 export default function RootLayout({
