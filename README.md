@@ -22,19 +22,21 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Build & Run in Production
 
-1️. Build the Project
+1. Build the Project
 
 ```bash
 npm run build
 ```
 
-2️. Start the Production Server
+- will create ./next folder
+
+2. Start the Production Server
 
 ```bash
 npm run start
 ```
 
-This serves the app on http://localhost:3000.
+This serves the app.
 
 ## Learn More
 
