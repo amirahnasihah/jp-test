@@ -37,9 +37,9 @@ export default function CookieConsent() {
         variant="ghost"
         onClick={() => setIsVisible(false)}
         // onClick={handleDecline}
-        className="text-gray-400 hover:text-white absolute top-4 right-4 p-2"
+        className="text-white hover:text-white absolute md:top-4 md:right-4 top-6 right-1/2 translate-x-1/2 md:translate-x-0 p-0 md:p-2"
       >
-        <RiCloseLargeLine className="h-[32px] w-[32px]" />
+        <RiCloseLargeLine className="h-[32px] w-[32px] md:h-[18px] md:w-[18px]" />
       </Button>
       <div className="flex-1 space-y-[20px]">
         <p className="font-semibold text-[12px] md:text-[13.5px] xl:text-[18px] tracking-[0%] leading-[120%]">
