@@ -53,6 +53,16 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
+### Static Export (Non-Vercel Deployments)
+
+If you want to deploy this application to a static hosting service (like GitHub Pages, Netlify, or any static file host), you'll need to add `output: "export"` to your `next.config.ts`:
+
+```ts
+export default {
+  output: "export",
+};
+```
+
 ## Testing with Cypress
 
 First, make sure you have all dependencies installed:
