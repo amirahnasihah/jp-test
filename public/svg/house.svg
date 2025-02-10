@@ -1,0 +1,77 @@
+<svg id="design" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      line {
+        fill: none;
+        stroke: #000;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+        stroke-linecap: round;
+      }
+      .stage line, .stage path, .stage circle, .stage rect {
+        fill: #fff;
+        stroke: #000;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+        stroke-linecap: round;
+      }
+      .human {
+        animation: human 5s ease 0.5s infinite;
+      }
+      .effect {
+        animation: effect 5s ease 0.5s infinite;
+      }
+
+      @keyframes human {
+        0% { translate: 0 20px; opacity: 0; }
+        30% { translate: 0 20px; opacity: 0; }
+        40% { translate: 0; opacity: 1; }
+        100% { translate: 0; opacity: 1; }
+      }
+      @keyframes effect {
+        0% { translate: 0 10px; opacity: 0; }
+        45% { translate: 0 10px; opacity: 0; }
+        50% { translate: 0; opacity: 1; }
+        54% { translate: 0; opacity: 1; }
+        55% { translate: 0 10px; opacity: 0; }
+        60% { translate: 0; opacity: 1; }
+        64% { translate: 0; opacity: 1; }
+        65% { translate: 0 10px; opacity: 0; }
+        70% { translate: 0; opacity: 1; }
+        74% { translate: 0; opacity: 1; }
+        75% { translate: 0 10px; opacity: 0; }
+        80% { translate: 0; opacity: 1; }
+        84% { translate: 0; opacity: 1; }
+        85% { translate: 0 10px; opacity: 0; }
+        90% { translate: 0; opacity: 1; }
+        100% { translate: 0; opacity: 1; }
+      }
+    </style>
+  </defs>
+  <g class="canvas">
+    <g class="human">
+      <path d="M246.39,183.34c-2.93-2.93-7.67-2.93-10.59,0l-26.33,26.33c-3.24-1.8-7-2.78-10.99-2.64-11.42.41-20.3,10.14-20.3,21.56v72.32h14.98v-34.66c0-3.36,2.73-6.09,6.09-6.09s6.09,2.73,6.09,6.09v34.66h14.98v-72.83c0-2.42-.41-4.74-1.17-6.91l27.25-27.25c2.93-2.93,2.93-7.67,0-10.59Z" />
+      <circle cx="199.35" cy="186.88" r="12.11" />
+    </g>
+    <g class="stage">
+      <path d="M322.27,148.03l-109.31-86.46c-7.6-6.01-18.33-6.01-25.93,0l-109.31,86.46c-7.77,6.15-3.42,18.65,6.48,18.65h9.86v63.77h38.91v-63.77h134.03v63.77h38.91v-63.77h9.86c9.91,0,14.25-12.5,6.48-18.65Z" />
+      <path d="M85.77,210.54h55.52c2.88,0,5.22,2.34,5.22,5.22v85.15h-65.97v-85.15c0-2.88,2.34-5.22,5.22-5.22Z" />
+      <line x1="101.85" y1="166.68" x2="125.2" y2="166.68" />
+      <line x1="274.8" y1="166.68" x2="298.15" y2="166.68" />
+      <circle cx="113.53" cy="237.51" r="12.29" />
+      <circle cx="113.53" cy="273.95" r="12.29" />
+      <path d="M258.71,210.54h55.52c2.88,0,5.22,2.34,5.22,5.22v85.15h-65.97v-85.15c0-2.88,2.34-5.22,5.22-5.22Z" />
+      <circle cx="286.47" cy="237.51" r="12.29" />
+      <circle cx="286.47" cy="273.95" r="12.29" />
+      <path d="M193.82,206.2c-3.7-3.7-9.7-3.7-13.41,0-1.84,1.84-2.76,4.25-2.77,6.66-.02.01-.03.03-.05.04l-15.87,15.87c-2.63,2.63-2.63,6.89,0,9.52h0c2.11,2.11,5.27,2.52,7.79,1.25v61.37h10.22v-71.11l7.38-7.38s.03-.03.04-.05c2.41-.01,4.82-.93,6.66-2.77,3.7-3.7,3.7-9.7,0-13.41Z" />
+      <path d="M187.11,212.9c1.32,1.32,1.97,3.04,1.97,4.76s-.66,3.45-1.97,4.76" />
+      <path d="M182.35,210.93c.86,0,1.72.16,2.53.49s1.57.82,2.23,1.48" />
+      <rect x="62.37" y="300.92" width="275.26" height="36.35" rx="18.18" ry="18.18" />
+    </g>
+    <g class="effect">
+      <line x1="200" y1="103.76" x2="200" y2="146.35" />
+      <line x1="232.39" y1="115.83" x2="219.09" y2="152.35" />
+      <line x1="167.61" y1="115.83" x2="180.91" y2="152.35" />
+    </g>
+  </g>
+</svg>

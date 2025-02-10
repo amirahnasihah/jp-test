@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="design" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      path {
+        fill: #fff;
+      }
+      line, circle {
+        fill: none;
+      }
+      path, line {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+      circle {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+      .canvas {
+        transform-origin: center;
+        animation: speaker 5s ease infinite;
+      }
+      .light {
+        fill: none;
+        animation: switch 5s ease infinite;
+      }
+      .effect {
+        opacity: 0;
+        animation: effect 5s ease infinite;
+      }
+      @keyframes speaker {
+        0% { rotate: 0deg; }
+        30% { rotate: 0deg; }
+        40% { rotate: -20deg; }
+        100% { rotate: -20deg; }
+      }
+      @keyframes switch {
+        0% { fill: none; }
+        50% { fill: none; }
+        55% { fill: #000; }
+        100% { fill: #000; }
+      }
+      @keyframes effect {
+        0% { opacity: 0; }
+        50% { opacity: 0; }
+        55% { opacity: 1; }
+        100% { opacity: 1; }
+      }
+    </style>
+  </defs>
+  <g class="canvas">
+    <g class="speaker">
+      <path d="M78.47,234v62.87c0,10.35,8.39,18.73,18.73,18.73h0c10.35,0,18.73-8.39,18.73-18.73v-62.87s-37.46,0-37.46,0Z" />
+      <path d="M282.04,217.06c10.51-4.99,17.78-15.71,17.78-28.12s-7.27-23.13-17.78-28.12v56.24Z" />
+      <path d="M115.94,234h17.96c16.51,0,32.77,4.09,47.32,11.91l74.15,39.83v7.16c0,7.37,5.97,13.34,13.34,13.34h0c7.37,0,13.34-5.97,13.34-13.34V84.98c0-7.37-5.97-13.34-13.34-13.34h0c-7.37,0-13.34,5.97-13.34,13.34v7.16s-74.15,39.83-74.15,39.83c-14.55,7.81-30.81,11.91-47.32,11.91h-17.96s-20.48,0-20.48,0h-16.98c-24.89,0-45.06,20.18-45.06,45.06h0c0,24.89,20.18,45.06,45.06,45.06h37.46Z" />
+      <line x1="255.37" y1="111.5" x2="255.37" y2="266.38" />
+      <line x1="159.85" y1="152.89" x2="159.85" y2="224.99" />
+    </g>
+    <circle class="light" cx="97.2" cy="213.16" r="9.1" />
+    <g class="effect">
+      <line x1="374.18" y1="188.94" x2="331.59" y2="188.94" />
+      <line x1="362.12" y1="146.55" x2="325.59" y2="159.85" />
+      <line x1="336.81" y1="112.07" x2="310.01" y2="134.56" />
+      <line x1="362.12" y1="231.33" x2="325.59" y2="218.03" />
+      <line x1="336.81" y1="265.81" x2="310.01" y2="243.32" />
+    </g>
+  </g>
+</svg>

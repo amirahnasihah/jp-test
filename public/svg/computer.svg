@@ -1,0 +1,159 @@
+
+<svg id="design" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .device line, .device path, .device rect {
+        fill: #fff;
+        stroke: #000;
+        stroke-width: 3px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .display rect {
+        fill: #fff;
+        stroke: #000;
+        stroke-width: 3px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .window01 line, .window01 rect, .window02 line, .window02 rect {
+        fill: #fff;
+        stroke: #000;
+        stroke-width: 3px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .effect01 line, .effect02 line {
+        fill: none;
+        stroke: #000;
+        stroke-width: 3px;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+      }
+      .effect01 .bright, .effect02 .bright {
+        stroke: #fff;
+        stroke-width: 14px;
+      }
+      .sp {
+        clip-path: url(#clippath);
+      }
+      .cursor {
+        stroke: #000;
+        stroke-width: 2px;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+      }
+      .display {
+        animation: display 5s ease 1.5s infinite;
+      }
+      .display03 {
+        animation: display03 5s ease 1.5s infinite;
+      }
+      .window01 {
+        animation: window01 5s ease 1.5s infinite;
+      }
+      .window02 {
+        animation: window02 5s ease 1.5s infinite;
+      }
+      .effect01 {
+        animation: effect01 5s ease 1.5s infinite;
+      }
+      .effect02 {
+        animation: effect02 5s ease 1.5s infinite;
+      }
+      .cursor {
+        animation: cursor 5s ease 1.5s infinite;
+      }
+
+      @keyframes display {
+        0% { translate: 0; }
+        30% { translate: 0; }
+        40% { translate: 0 -39px; }
+        60% { translate: 0 -39px; }
+        70% { translate: 0 -78px; }
+        100% { translate: 0 -78px; }
+      }
+      @keyframes display03 {
+        0% { fill: #000; }
+        100% { fill: #000; }
+      }
+      @keyframes window01 {
+        0% { opacity: 0; }
+        40% { opacity: 0; }
+        41% { opacity: 1; }
+        100% { opacity: 1; }
+      }
+      @keyframes window02 {
+        0% { opacity: 0; }
+        70% { opacity: 0; }
+        71% { opacity: 1; }
+        100% { opacity: 1; }
+      }
+      @keyframes effect01 {
+        0% { opacity: 0; }
+        40% { opacity: 0; }
+        41% { opacity: 1; }
+        100% { opacity: 1; }
+      }
+      @keyframes effect02 {
+        0% { opacity: 0; }
+        70% { opacity: 0; }
+        71% { opacity: 1; }
+        100% { opacity: 1; }
+      }
+      @keyframes cursor {
+        0% { translate: 145px -70px; }
+        30% { translate: 145px -70px; }
+        40% { translate: 60px 0; }
+        60% { translate: 60px 0; }
+        70% { translate: 0 0; }
+        100% { translate: 0 0; }
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect x="281.1" y="205.37" width="52.23" height="91.09" />
+    </clipPath>
+  </defs>
+  <g class="device">
+    <path d="M241.18,298.31h-30.76v-49.2h-61.8v49.2h-30.76c-6.06,0-10.97,4.91-10.97,10.97h0c0,6.06,4.91,10.97,10.97,10.97h123.32c6.06,0,10.97-4.91,10.97-10.97h0c0-6.06-4.91-10.97-10.97-10.97Z" />
+    <line x1="198.06" y1="298.31" x2="160.98" y2="298.31" />
+    <rect x="63.08" y="82.59" width="232.88" height="175.45" rx="10.51" ry="10.51" />
+    <line x1="278.5" y1="228.24" x2="80.55" y2="228.24" />
+    <rect x="273.54" y="186.62" width="67.35" height="133.62" rx="8.41" ry="8.41" />
+    <line x1="313.5" y1="311.34" x2="300.93" y2="311.34" />
+    <line x1="340.89" y1="303.13" x2="273.54" y2="303.13" />
+    <line x1="273.54" y1="198.86" x2="340.89" y2="198.86" />
+  </g>
+  <g class="sp">
+    <g class="display">
+      <rect class="display01" x="282.6" y="207.37" width="49.23" height="31.34" rx="3.79" ry="3.79" transform="translate(614.43 446.08) rotate(180)" />
+      <rect class="display02" x="282.6" y="246.27" width="49.23" height="31.34" rx="3.79" ry="3.79" transform="translate(614.43 523.87) rotate(180)" />
+      <rect class="display03" x="282.6" y="285.16" width="49.23" height="31.34" rx="3.79" ry="3.79" transform="translate(614.43 601.65) rotate(180)" />
+    </g>
+  </g>
+  <g class="window01">
+    <rect x="166.91" y="140.22" width="94.62" height="73.07" rx="6" ry="6" />
+    <line x1="166.91" y1="150.43" x2="261.52" y2="150.43" />
+  </g>
+  <g class="effect01">
+    <line class="bright" x1="294.22" y1="108.28" x2="270.12" y2="132.37" />
+    <line class="bright" x1="305.71" y1="133.42" x2="277.53" y2="146.56" />
+    <line class="bright" x1="269.07" y1="96.78" x2="255.93" y2="124.96" />
+    <line x1="294.22" y1="108.28" x2="270.12" y2="132.37" />
+    <line x1="305.71" y1="133.42" x2="277.53" y2="146.56" />
+    <line x1="269.07" y1="96.78" x2="255.93" y2="124.96" />
+  </g>
+  <g class="window02">
+    <rect x="97.51" y="104.09" width="109.35" height="73.07" rx="6" ry="6" />
+    <line x1="97.51" y1="114.29" x2="206.86" y2="114.29" />
+  </g>
+  <g class="effect02">
+    <line class="bright" x1="46.34" y1="65.85" x2="76.45" y2="95.96" />
+    <line class="bright" x1="77.77" y1="51.48" x2="94.2" y2="86.7" />
+    <line class="bright" x1="31.96" y1="97.28" x2="67.19" y2="113.71" />
+    <line x1="46.34" y1="65.85" x2="76.45" y2="95.96" />
+    <line x1="77.77" y1="51.48" x2="94.2" y2="86.7" />
+    <line x1="31.96" y1="97.28" x2="67.19" y2="113.71" />
+  </g>
+  <path class="cursor" d="M142.3,180.86l-20.17-19.88c-1.32-1.3-3.56-.37-3.56,1.49v28.32c0,1.49,1.52,2.51,2.9,1.93l6.13-2.56,5.17,12.35c.45,1.07,1.67,1.57,2.74,1.12l3.68-1.54c1.07-.45,1.57-1.67,1.12-2.74l-5.17-12.35,6.5-2.72c1.38-.58,1.72-2.37.66-3.42Z" />
+</svg>

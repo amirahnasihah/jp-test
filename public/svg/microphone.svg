@@ -1,0 +1,99 @@
+<svg id="design" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .effect line {
+        fill: none;
+        stroke: #000;
+        stroke-width: 3px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .effect .bright {
+        stroke: #fff;
+        stroke-width: 14px;
+      }
+      .mike line, .mike path {
+        fill: #fff;
+        stroke: #000;
+        stroke-width: 3px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .canvas {
+        transform-origin: center;
+        animation: mike 5s ease 1s infinite;
+      }
+      .switch path {
+        fill: #fff;
+        stroke: #000;
+        stroke-width: 3px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        animation: switch01 5s ease 1s infinite;
+      }
+      .switch rect {
+        stroke: #000;
+        stroke-width: 3px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        animation: switch02 5s ease 1s infinite;
+      }
+      .effect {
+        animation: effect 5s ease 1s infinite;
+      }
+
+      @keyframes mike {
+        0% { rotate: 45deg; }
+        30% { rotate: 45deg; }
+        35% { rotate: 0deg; }
+        100% { rotate: 0deg; }
+      }
+      @keyframes switch01 {
+        0% { translate: 0 -30px; }
+        35% { translate: 0 -30px; }
+        45% { translate: 0; }
+        100% { translate: 0; }
+      }
+      @keyframes switch02 {
+        0% { fill: #fff; }
+        35% { fill: #fff; }
+        45% { fill: #000; }
+        100% { fill: #000; }
+      }
+      @keyframes effect {
+        0% { opacity: 0; }
+        40% { opacity: 0; }
+        50% { opacity: 1; }
+        100% { opacity: 1; }
+      }
+    </style>
+  </defs>
+  <g class="canvas">
+    <g class="mike">
+      <path d="M278.24,100.67h0s-.05-.02-.06-.05c-8.87-34.92-40.5-60.76-78.18-60.76-37.68,0-69.32,25.84-78.18,60.76,0,.03-.03.05-.06.05h0c-6.11,0-11.06,4.95-11.06,11.06v17.59c0,6.11,4.95,11.06,11.06,11.06h0s.05.02.06.05c8.87,34.92,40.5,60.76,78.18,60.76s69.32-25.84,78.18-60.76c0-.03.03-.05.06-.05h0c6.11,0,11.06-4.95,11.06-11.06v-17.59c0-6.11-4.95-11.06-11.06-11.06Z" />
+      <line x1="121.81" y1="100.67" x2="262.65" y2="100.67" />
+      <line x1="278.31" y1="140.38" x2="137.35" y2="140.38" />
+      <path d="M152.04,185.35l13.98,145.24c.61,6.37,5.22,11.45,11.19,12.91h0c0,9.19,7.45,16.64,16.64,16.64h12.28c9.19,0,16.64-7.45,16.64-16.64h0c5.97-1.45,10.58-6.54,11.19-12.91l13.98-145.24h-95.92Z" />
+      <line x1="240.15" y1="266.47" x2="167.88" y2="266.47" />
+      <line x1="216.04" y1="343.93" x2="183.97" y2="343.93" />
+    </g>
+    <g class="switch">
+      <rect x="174.6" y="214.34" width="50.8" height="23.59" rx="11.79" ry="11.79" transform="translate(426.14 26.14) rotate(90)" />
+      <path d="M211.79,239.75c0,6.51-5.28,11.79-11.79,11.79-6.51,0-11.79-5.28-11.79-11.79s5.28-11.79,11.79-11.79c6.51,0,11.79,5.28,11.79,11.79Z" />
+    </g>
+    <g class="effect">
+      <line class="bright" x1="120.22" y1="226.14" x2="162.81" y2="226.14" />
+      <line class="bright" x1="132.28" y1="193.75" x2="168.81" y2="207.04" />
+      <line class="bright" x1="132.28" y1="258.53" x2="168.81" y2="245.23" />
+      <line x1="120.22" y1="226.14" x2="162.81" y2="226.14" />
+      <line x1="132.28" y1="193.75" x2="168.81" y2="207.04" />
+      <line x1="132.28" y1="258.53" x2="168.81" y2="245.23" />
+      <line class="bright" x1="279.78" y1="226.14" x2="237.19" y2="226.14" />
+      <line class="bright" x1="267.72" y1="193.75" x2="231.19" y2="207.04" />
+      <line class="bright" x1="267.72" y1="258.53" x2="231.19" y2="245.23" />
+      <line x1="279.78" y1="226.14" x2="237.19" y2="226.14" />
+      <line x1="267.72" y1="193.75" x2="231.19" y2="207.04" />
+      <line x1="267.72" y1="258.53" x2="231.19" y2="245.23" />
+    </g>
+  </g>
+</svg>
