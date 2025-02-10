@@ -1,0 +1,68 @@
+import { ServiceItem } from "@/types/misc.type";
+
+export const services: ServiceItem[] = [
+  {
+    icon: "/svg/megaphone.svg",
+    title: "Exhibition, PR Event, Ceremony",
+    description: "展示会／PRイベント／セレモニー",
+    category: "Promotion",
+    image: "/images/top_hover1.png",
+    subtitle: "もっと\n詳しく",
+  },
+  {
+    icon: "/svg/house.svg",
+    title: "Cultural Exchange Festival",
+    description: "文化交流フェスティバル",
+    category: "Promotion",
+    image: "/images/top_hover2.png",
+    subtitle: "もっと\n詳しく",
+  },
+  {
+    icon: "/svg/microphone.svg",
+    title: "Seminar Meeting, Reception, Meeting",
+    description: "セミナー・商談会／レセプション／メディアカンファレンス",
+    category: "Promotion",
+    image: "/images/top_hover3.png",
+    subtitle: "もっと\n詳しく",
+  },
+  {
+    icon: "/svg/computer.svg",
+    title: "KOL / Media promotion",
+    description: "インフルエンサー／メディアプロモーション",
+    category: "Promotion",
+    image: "/images/top_hover4.png",
+    subtitle: "もっと\n詳しく",
+  },
+  {
+    icon: "/svg/eating.svg",
+    title: "Japanese Food, Sake & Product Promotion",
+    description: "日本食・酒・商品 海外プロモーション",
+    category: "Promotion",
+    image: "/images/top_hover5.png",
+    subtitle: "もっと\n詳しく",
+  },
+  {
+    icon: "/svg/travel.svg",
+    title: "Japan Tourism (Inbound) Promotion",
+    description: "日本観光(インバウンド)プロモーション",
+    category: "Promotion",
+    image: "/images/top_hover6.png",
+    subtitle: "もっと\n詳しく",
+  },
+  {
+    icon: "/svg/smartphone.svg",
+    title: "Interactive Digital Contents",
+    description: "インタラクティブデジタルコンテンツ",
+    category: "Produce",
+    image: "/images/top_hover7.png",
+    subtitle: "もっと\n詳しく",
+  },
+  {
+    icon: "/svg/stage.svg",
+    title: "Space Creative & Design",
+    description: "空間演出・デザイン",
+    category: "Produce",
+    image: "/images/top_hover8.png",
+    subtitle: "もっと\n詳しく",
+  },
+];
