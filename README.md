@@ -28,7 +28,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 npm run build
 ```
 
-- will create ./next folder
+- will generate a `.next/` folder containing the optimized production build.
 
 2. Start the Production Server
 
@@ -58,6 +58,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 If you want to deploy this application to a static hosting service (like GitHub Pages, Netlify, or any static file host), you'll need to add `output: "export"` to your `next.config.ts`:
 
 ```ts
+// next.config.ts
 export default {
   output: "export",
 };
