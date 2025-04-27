@@ -1,8 +1,14 @@
-Source - https://animate-jpspa-amrhnshh.vercel.app
+# Overview
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+-  🔔 Demo: https://animate-jpspa-amrhnshh.vercel.app
+
+https://github.com/user-attachments/assets/9367176b-7d6f-48b4-a1d1-87248c80d529
+
+https://github.com/user-attachments/assets/dc1fdf71-9199-4975-b411-81b6fc1694fc
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 First, run the development server:
 
